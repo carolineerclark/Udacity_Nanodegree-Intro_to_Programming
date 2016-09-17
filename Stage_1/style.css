@@ -5,20 +5,23 @@ body {
   box-sizing: border-box;
 }
 
-.page_header {
-  text-align: center;
+h1 {
   font-size: 60px;
-  margin-top: 20px;
-  color: #D10280;
+  color: #d10280;
   font-family: "Avenir", sans-serif;
   font-weight: bold;
+  margin-bottom: 0;
+  margin-top: 0;
+  text-align: center;
 }
 
-.tagline {
+h2 {
   text-align: center;
   font-size: 26px;
-  color: #8702D1;
+  color: #8702d1;
   font-family: "Avenir", sans-serif;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 .main_info {
@@ -30,20 +33,16 @@ body {
   text-align: center;
 }
 
-.blurb {
-
+p {
   color: black;
   font-family: "Avenir", sans-serif;
   font-size: 19px;
   text-align: justify;
 }
 
-.social {
-  text-align: right;
-}
-
 ul {
   list-style: none;
+  text-align: right;
 }
 
 li {
@@ -58,25 +57,25 @@ li {
 /*Link styling is taken from W3schools' section on CSS*/
 /* unvisited link */
 a:link {
-    color: #129CB7;
+    color: #129cb7;
     text-decoration: none;
 }
 
 /* visited link */
 a:visited {
-    color: #8702D1;
+    color: #8702d1;
     text-decoration: none;
 }
 
 /* mouse over link */
 a:hover {
-    color: #D10280;
+    color: #d10280;
     text-decoration: underline;
 }
 
 /* selected link */
 a:active {
-    color: #8702D1;
+    color: #8702d1;
     text-decoration: underline;
   }
 
@@ -97,21 +96,9 @@ a:active {
     height: auto;
 }
 
+/*Each column expands by 8.3333%*/
 .col-1 {
     width: 8.33%;
-}
-
-/*Each column expands by 8.3333%*/
-.col-2 {
-    width: 16.66%;
-}
-
-.col-3 {
-    width: 25%;
-}
-
-.col-4 {
-    width: 33.33%;
 }
 
 .col-5 {
@@ -120,26 +107,6 @@ a:active {
 
 .col-6 {
     width: 50%;
-}
-
-.col-7 {
-    width: 58.33%;
-}
-
-.col-8 {
-    width: 66.66%;
-}
-
-.col-9 {
-    width: 75%;
-}
-
-.col-10 {
-    width: 83.33%;
-}
-
-.col-11 {
-    width: 91.66%;
 }
 
 .col-12 {
