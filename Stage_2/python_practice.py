@@ -26,3 +26,13 @@ def diff21(n):
         return (n - 21) * 2
     else:
         return 21 - n
+ 
+# Problem 4: nearhundred
+# Given an int n, return True if it is within 10 of 100 or 200.
+
+def near_hundred(n):
+    if (n > 89 and n < 111) or (n > 189 and n < 211):
+        return True
+    else:
+        return False
+
